@@ -25,7 +25,7 @@ public class ConnectFour extends JFrame {
 
         Board board = new Board();
         Color blueColorCell = new Color(205, 235, 252);  //CDEBFC
-        Color yellowColorCell = new Color(205, 235, 252);  //CDEBFC
+        Color yellowColorCell = new Color(205, 235, 0);  //CDEBFC
         //Color yellowColorCell = new Color(243,233,192);   //F3E9C0
         Color colorNow = blueColorCell;
         for (int i = 0;i<Board.rouwsBoard;i++)
